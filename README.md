@@ -1,3 +1,5 @@
+# От меня
+SPA приложение. Написано на React. Ищет фильмы на сайте с тестовой базой фильмов.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
