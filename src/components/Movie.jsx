@@ -10,12 +10,21 @@ function Movie(props) {
     } = props;
     return (
 
-        <div className="card">
+        <div id={id} className="card">
             <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src={poster} />
             </div>
             <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">{title}<i className="material-icons right">{type}</i></span>
+                <span className="card-title activator grey-text text-darken-4">
+                    {title}
+                </span>
+                <p>
+                    <span>{year}</span>
+                    <span className="material-icons right">
+                        {type}
+                    </span>
+                </p>
+
             </div>
 
         </div>
